@@ -110,3 +110,6 @@ True  || False=False
 
 (&&&&&) :: Bool -> Bool -> Bool
 (&&&&&) x y = if x then y else False
+
+addl :: Int ->Int ->Int
+addl = \x -> ( \y -> x+y)
